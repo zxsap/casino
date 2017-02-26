@@ -1,0 +1,40 @@
+#include <iostream>
+#include <windows.h>
+#include <time.h>
+using namespace std;
+string nick;
+double cash;
+double bet=0;
+double krupier;
+void start()
+{
+    cout<<"Witaj, podaj nick: ";
+    getline(cin,nick);
+    system("cls");
+    cout<<"Witaj "<<nick<<" powiedz ile pieniedzy przyniosles ze soba:";
+    cin>>cash;
+}
+void gra()
+{
+    system("cls");
+    cout<<"obecnie posiadasz: "<<cash<<" pieniedzy"<<endl;
+    cout<<"Dostepne sa takie gry:"<<endl;
+    cout<<"H/L - High/Low || payout 80%"<<endl;
+    cout<<"Number 1-6     || payout 600%"<<endl;
+    cout<<endl;
+    cout<<"Aby zagrac wpisz kwote a nastepnie wybierz gre:";
+    cin>>bet;
+    system("cls")
+    cout<<
+}
+int main()
+{
+    start();
+    for(;;)
+    {
+     gra(); 
+     
+    }
+
+    return 0;
+}
